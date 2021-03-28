@@ -1,0 +1,61 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+/* navbar */
+.navbarNav {
+  background-color: fffff;
+}
+
+/* end navbar */
+/* header2 */
+
+.header2 {
+  padding-top: 5rem;
+  background-color: #dabdf5;
+}
+
+.footer {
+  background-color: fffff;
+}
+
+/* end header2 */
+
+/* intro */
+
+.about {
+  padding-top: 1rem;
+}
+
+/* end intro */
+
+/* skill */
+#services-area {
+  background-color: #dabdf5;
+}
+
+.services {
+  padding: 10;
+  background-color: rgb(253, 253, 253);
+}
+
+/* end skill */
+
+/* project */
+
+/* end project */
+
+/* contact */
+#contact {
+  padding: 10;
+  background-color: #dabdf5;
+}
+
+section {
+  padding-top: 5rem;
+}
