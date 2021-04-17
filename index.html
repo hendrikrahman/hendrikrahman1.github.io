@@ -1,0 +1,390 @@
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css" />
+  </head>
+  <body>
+    <!-- Background animation effect start -->
+    <div class="bg-animation-effect"></div>
+    <!-- Background animation effect end -->
+    <!-- Overlay effect start -->
+    <div class="overlay-effect">
+      <div class="overlay-effect-item"></div>
+      <div class="overlay-effect-item"></div>
+      <div class="overlay-effect-item"></div>
+      <div class="overlay-effect-item"></div>
+      <div class="overlay-effect-item"></div>
+      <div class="overlay-effect-item"></div>
+      <div class="overlay-effect-item"></div>
+      <div class="overlay-effect-item"></div>
+      <div class="overlay-effect-item"></div>
+      <div class="overlay-effect-item"></div>
+    </div>
+    <!-- Overlay effect end -->
+    <!-- header start -->
+    <header class="header">
+      <div class="container">
+        <div class="row flex-end">
+          <button type="button" class="nav-toggler">
+        <span></span>
+      </button>
+      <nav class="nav">
+        <div class="nav-inner">
+          <ul>
+            <li><a href="#about" class="nav-item link-item">About</a></li>
+            <li><a href="#skill" class="nav-item link-item">Skill</a></li>
+            <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+            <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- about section start -->
+    <section class="about-section active" id="about">
+      <div class="container">
+        <div class="row min-vh-100">
+          <div class="about-content">
+            <img src="img/hendrik-remove.jpg" alt="profil-img" />
+            <h1>Hello, Nama saya Hendrik Taufiqurahman.</h1>
+            <p>Saya adalah seorang Web Developer . Ini adalah <a href="#">MyPortfolio</a> ,Saya adalah lulusan tahun 2020 pada jurusan D3 Manajemen Informatika klik <a href="#">disini</a> untuk mengirim pesan kepada saya</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- skill section start -->
+    <section class="skill-area" id="skill">
+      <div class="container">
+        <d class="row">
+          <div class="section-skill-title">
+            <h2>Skill</h2>
+          </div>
+        <div class="container services-list">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="skill-box">
+                <div class="sevices-img text-center py-4">
+                  <img src="./img/php.png" class="img-skill" />
+                </div>
+                <br>
+                <div class="card-body text-center">
+                  <h5 class="card-title">php developer</h5>
+                  
+                  <p class="card-text">mampu membangun website dengan bahasa php</p>
+                </div>
+              </div>
+            </div>
+            <div class="container services-list">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="skill-box">
+                    <div class="sevices-img text-center py-4">
+                      <img src="./img/js-format.png" class="img-skill" />
+                    </div>
+                    <br>
+                    <div class="card-body text-center">
+                      <h5 class="card-title">javascript</h5>
+                      <p class="card-text">mampu membangun website dengan bahasa php</p>
+                    </div>
+                  </div>
+                </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="skill-box">
+                <div class="sevices-img text-center py-4">
+                  <img src="./img/ux-design.png" class="img-skill" />
+                </div>
+                <br>
+                <div class="card-body text-center">
+                  <h5 class="card-title">ux/ui design</h5>
+                  <p class="card-text">mampu mendesain sebuah web menggunakan figma</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="skill-box">
+                <div class="sevices-img text-center py-4">
+                  <img src="./img/user-interface.png" class="img-skill" />
+                </div>
+                <br>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Mobile app</h5>
+                  <p class="card-text">bisa mendesign sebuah website</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="skill-box">
+                <div class="sevices-img text-center py-4">
+                  <img src="./img/programming.png" class="img-skill" />
+                </div>
+                <br>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Back-end</h5>
+                  <p class="card-text">mampu menggunakan Microsoft excel, word dll</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill section end -->
+
+
+    <!-- portfolio section start -->
+    <section class="portfolio-section sec-padding" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>My Portfolio</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="portfolio-filter">
+            <button type="button" title="Show all works" class="portfolio-filter-btn active" data-filter="all">All</button>
+            <button type="button" title="Filter by Front-End" class="portfolio-filter-btn" data-filter="front-end">Front-End</button>
+            <button type="button" title="Filter by Back-end" class="portfolio-filter-btn" data-filter="back-end">Back-end</button>
+            <button type="button" title="Filter by Mobile-App" class="portfolio-filter-btn" data-filter="mobile-app">Mobile-App</button>
+          </div>
+          <div class="filter-status">
+            <p></p>
+          </div>
+        </div>
+        <div class="row portfolio-items">
+          <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="front-end">
+             <div class="portfolio-item-thumbnail">
+                <img src="img/1.png" alt="thumbnail">
+                <button type="button" class="btn more-info-btn">More Info</button>
+             </div>
+          <h3 class="portfolio-item-title">Sistem Aplikasi Klinik</h3>
+          <div class="portfolio-item-details">
+            <div class="deskripsi">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Temporibus expedita facere delectus laborum cum excepturi 
+               culpa aliquam nobis blanditiis aspernatur molestiae sit 
+               quas distinctio ex ad atque, harum hic dolore repellendus quia! Provident enim esse, nulla cum harum dolore ratione! Distinctio excepturi, velit omnis facere nam eveniet, soluta officia quaerat impedit tempore corrupti, dolorum nihil commodi non ab corporis dolorem?
+            </div>
+            <div class="general-info">
+              <p>Created <span>Juni 2020</span></p>
+              <p>Techonologies Used <span>PHP,SQL,CSS, framework Codeigniter</span></p>
+              <p>Role <span>Back-end,Front-End</span></p>
+            </div>
+          </div>
+          </div>
+          <!-- portfolio item end -->
+           <!-- portfolio item start -->
+           <div class="portfolio-item" data-category="back-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/5.jpg" alt="thumbnail">
+              <button type="button" class="btn more-info-btn">More Info</button>
+           </div>
+        <h3 class="portfolio-item-title">Sistem Aplikasi Klinik</h3>
+        <div class="portfolio-item-details">
+          <div class="deskripsi">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Temporibus expedita facere delectus laborum cum excepturi 
+             culpa aliquam nobis blanditiis aspernatur molestiae sit 
+             quas distinctio ex ad atque, harum hic dolore repellendus quia! Provident enim esse, nulla cum harum dolore ratione! Distinctio excepturi, velit omnis facere nam eveniet, soluta officia quaerat impedit tempore corrupti, dolorum nihil commodi non ab corporis dolorem?
+          </div>
+          <div class="general-info">
+            <p>Created <span>Juni 2020</span></p>
+            <p>Techonologies Used <span>PHP,SQL,CSS, framework Codeigniter</span></p>
+            <p>Role <span>Back-end,Front-End</span></p>
+          </div>
+        </div>
+           </div>
+           <!-- portfolio item end -->
+            <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="back-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/4.jpg" alt="thumbnail">
+              <button type="button" class="btn more-info-btn">More Info</button>
+           </div>
+        <h3 class="portfolio-item-title">Sistem Aplikasi Klinik</h3>
+        <div class="portfolio-item-details">
+          <div class="deskripsi">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Temporibus expedita facere delectus laborum cum excepturi 
+             culpa aliquam nobis blanditiis aspernatur molestiae sit 
+             quas distinctio ex ad atque, harum hic dolore repellendus quia! Provident enim esse, nulla cum harum dolore ratione! Distinctio excepturi, velit omnis facere nam eveniet, soluta officia quaerat impedit tempore corrupti, dolorum nihil commodi non ab corporis dolorem?
+          </div>
+          <div class="general-info">
+            <p>Created <span>Juni 2020</span></p>
+            <p>Techonologies Used <span>PHP,SQL,CSS, framework Codeigniter</span></p>
+            <p>Role <span>Back-end,Front-End</span></p>
+          </div>
+        </div>
+          </div>
+          <!-- portfolio item end -->
+           <!-- portfolio item start -->
+           <div class="portfolio-item" data-category="mobile-App">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/7.jpg" alt="thumbnail">
+              <button type="button" class="btn more-info-btn">More Info</button>
+           </div>
+        <h3 class="portfolio-item-title">Sistem Aplikasi Klinik</h3>
+        <div class="portfolio-item-details">
+          <div class="deskripsi">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Temporibus expedita facere delectus laborum cum excepturi 
+             culpa aliquam nobis blanditiis aspernatur molestiae sit 
+             quas distinctio ex ad atque, harum hic dolore repellendus quia! Provident enim esse, nulla cum harum dolore ratione! Distinctio excepturi, velit omnis facere nam eveniet, soluta officia quaerat impedit tempore corrupti, dolorum nihil commodi non ab corporis dolorem?
+          </div>
+          <div class="general-info">
+            <p>Created <span>Juni 2020</span></p>
+            <p>Techonologies Used <span>PHP,SQL,CSS, framework Codeigniter</span></p>
+            <p>Role <span>Back-end,Front-End</span></p>
+          </div>
+        </div>
+           </div>
+           <!-- portfolio item end -->
+           <!-- portfolio item start -->
+           <div class="portfolio-item" data-category="mobile-app">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/1.jpg" alt="thumbnail">
+              <button type="button" class="btn more-info-btn">More Info</button>
+           </div>
+        <h3 class="portfolio-item-title">Sistem Aplikasi Klinik</h3>
+        <div class="portfolio-item-details">
+          <div class="deskripsi">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Temporibus expedita facere delectus laborum cum excepturi 
+             culpa aliquam nobis blanditiis aspernatur molestiae sit 
+             quas distinctio ex ad atque, harum hic dolore repellendus quia! Provident enim esse, nulla cum harum dolore ratione! Distinctio excepturi, velit omnis facere nam eveniet, soluta officia quaerat impedit tempore corrupti, dolorum nihil commodi non ab corporis dolorem?
+          </div>
+          <div class="general-info">
+            <p>Created <span>Juni 2020</span></p>
+            <p>Techonologies Used <span>PHP,SQL,CSS, framework Codeigniter</span></p>
+            <p>Role <span>Back-end,Front-End</span></p>
+          </div>
+        </div>
+           </div>
+           <!-- portfolio item end -->
+            <!-- portfolio item start -->
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/2.jpg" alt="thumbnail">
+              <button type="button" class="btn more-info-btn">More Info</button>
+           </div>
+        <h3 class="portfolio-item-title">Sistem Aplikasi Klinik</h3>
+        <div class="portfolio-item-details">
+          <div class="deskripsi">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Temporibus expedita facere delectus laborum cum excepturi 
+             culpa aliquam nobis blanditiis aspernatur molestiae sit 
+             quas distinctio ex ad atque, harum hic dolore repellendus quia! Provident enim esse, nulla cum harum dolore ratione! Distinctio excepturi, velit omnis facere nam eveniet, soluta officia quaerat impedit tempore corrupti, dolorum nihil commodi non ab corporis dolorem?
+          </div>
+          <div class="general-info">
+            <p>Created <span>Juni 2020</span></p>
+            <p>Techonologies Used <span>PHP,SQL,CSS, framework Codeigniter</span></p>
+            <p>Role <span>Back-end,Front-End</span></p>
+          </div>
+        </div>
+          </div>
+          <!-- portfolio item end -->
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- portfolio detail popup start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <h2 class="pp-counter">
+              MyPortfolio <span></span>
+            </h2>
+            <button type="button" title="close" class="close-btn pp-close-btn"></button>
+            <div class="pp-thumbnail">
+              <img src="img/portfolio/7.jpg" alt="pp-thumbnail">
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body">
+          </div>
+          
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+    <!-- portfolio detail popup end -->
+
+    <section class="contact-section sec-padding min-vh-100" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-content">
+            <div class="contact-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi expedita ad dignissimos similique facere, corporis tempora commodi aliquam neque doloribus eaque inventore quibusdam quos repudiandae ipsum 
+                veniam quod exercitationem rerum aut quasi tenetur cum 
+                sint harum? Delectus itaque at et?</p>
+            </div>
+            <div class="contact-info-item">
+              <p>Email saya di <span>hendrikrahman1@gmail.com</span></p>
+            </div>
+            <div class="contact-info-item">
+              <p class="social-links">
+                <span>Temukan Media Sosial saya</span>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </p>
+            </div>
+           <button type="button" class="btn toggle-contact-form-btn">Kirim Pesan</button>
+          </div>
+          </div>
+          <!-- contact form start -->
+           <div class="contact-form">
+             <div class="contact-form-inner">
+               <div class="contact-form-container">
+                 <button type="button" class="close-btn toggle-contact-form-btn"></button>
+               <form>
+                 <div class="row">
+                   <div class="input-group">
+                     <input type="text" placeholder="Nama Lengkap" class="input-control">
+                   </div>
+                   <div class="input-group">
+                    <input type="text" placeholder="Email" class="input-control">
+                  </div>
+                  <div class="input-group">
+                    <input type="text" placeholder="No Telpon" class="input-control">
+                  </div>
+                  <div class="input-group">
+                    <textarea placeholder="Pesan" class="input-control"></textarea>
+                  </div>
+                  <div class="input-group">
+                    <button type="submit" class="btn btn-submit">Kirim</button>
+                  </div>
+                 </div>
+               </form>
+                </div>
+             </div>
+           </div>
+          <!-- contact form end -->
+          </div>
+      </div>
+    </section>
+  </body>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</html>
